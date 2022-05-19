@@ -13,7 +13,7 @@ jobs:
       - name: "Web Build 🔧"
         run: |
           flutter pub get
-          flutter build web
+          flutter build web --release --base-href '/taichi_board/'
       - name: "Web Deploy 🚀"
         # https://github.com/JamesIves/github-pages-deploy-action
         uses: JamesIves/github-pages-deploy-action@v4.3.3
