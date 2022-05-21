@@ -8,7 +8,7 @@ void main() => runApp(
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-  final String version = "alpha+2";
+  final String version = "alpha+3-pre";
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
