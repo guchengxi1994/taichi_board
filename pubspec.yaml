@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   taichi_board_designer:
     git:
-        url: git@github.com:guchengxi1994/taichi.git
+        url: https://github.com/guchengxi1994/taichi
         ref: modify-project-structure
         path: taichi_board_designer
 
