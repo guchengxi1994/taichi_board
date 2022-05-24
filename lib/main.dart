@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-// ignore: implementation_imports
-import 'package:taichi/src/blocks/t_building_blocks_board.dart';
+import 'package:taichi_board_designer/taichi_board.dart';
 
 void main() => runApp(
       const MyApp(),
@@ -8,7 +7,7 @@ void main() => runApp(
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-  final String version = "alpha+4-pre";
+  final String version = "dev+6";
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
