@@ -37,7 +37,7 @@ dependencies:
   taichi_board_designer:
     git:
         url: https://github.com/guchengxi1994/taichi
-        ref: builder
+        ref: deferred
         path: taichi_board_designer
 
 dev_dependencies:
